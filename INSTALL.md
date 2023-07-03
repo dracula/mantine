@@ -1,19 +1,22 @@
-### [Foobar](https://foobar.com)
+### [Mantine](https://mantine.dev/)
 
-#### Install using Git
-
-If you are a git user, you can install the theme and keep up to date by cloning the repo:
+#### Install using npm
 
 ```bash
-git clone https://github.com/dracula/foobar.git
+npm i mantine-dracula -S
 ```
-
-#### Install manually
-
-Download using the [GitHub `.zip` download](https://github.com/dracula/foobar/archive/master.zip) option and unzip them.
 
 #### Activating theme
 
-1. Do this;
-2. Then that;
-3. Boom! It's working ✨
+```jsx
+import { MantineProvider } from '@mantine/core'
+import { DraculaTheme } from 'mantine-dracula'
+function Demo() {
+  return (
+    // Pass DraculaTheme to theme prop of MantineProvider
+    <MantineProvider theme={DraculaTheme}>
+      <App />
+    </MantineProvider>
+  )
+}
+```
