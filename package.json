@@ -1,0 +1,43 @@
+{
+  "name": "mantine-dracula",
+  "version": "1.0.0",
+  "description": "Dracula theme for mantine component library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "build": "rm -rf dist && tsc && tsc -p tsconfig.types.json && cp package.json dist/package.json && cp LICENSE dist && cp README.md dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeretkk/mantine-dracula.git"
+  },
+  "keywords": [
+    "dracula",
+    "theme",
+    "dark",
+    "color",
+    "scheme",
+    "mantine",
+    "react"
+  ],
+  "author": "Kirill Stepkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeretkk/mantine-dracula/issues"
+  },
+  "homepage": "https://github.com/zeretkk/mantine-dracula#readme",
+  "peerDependencies": {
+    "@mantine/core": "^6.0.15"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "typesVersions": {
+    ">=4.2": {
+      "*": [
+        "_types/*"
+      ]
+    }
+  },
+  "types": "./index.d.ts"
+}
