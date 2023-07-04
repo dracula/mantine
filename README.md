@@ -2,7 +2,7 @@
 
 > A dark theme for [Mantine](https://mantine.dev/).
 
-<!-- ![Screenshot](./screenshot.png) TODO:screenshot -->
+![Screenshot](./screenshot.png)
 
 ## Install
 
