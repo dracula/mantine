@@ -4,6 +4,8 @@
 
 ![Screenshot](./screenshot.png)
 
+You can see a simple [DEMO](https://codesandbox.io/p/sandbox/mantine-dracula-demo-7fzzwp) of the theme
+
 ## Install
 
 All instructions can be found at [draculatheme.com/mantine](https://draculatheme.com/mantine).
