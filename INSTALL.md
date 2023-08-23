@@ -3,7 +3,7 @@
 #### Install using npm
 
 ```bash
-npm i mantine-dracula -S
+npm i dracula-mantine -S
 ```
 
 #### Activating theme
