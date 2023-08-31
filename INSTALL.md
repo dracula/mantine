@@ -10,7 +10,7 @@ npm i dracula-mantine -S
 
 ```jsx
 import { MantineProvider } from '@mantine/core'
-import { DraculaTheme } from 'mantine-dracula'
+import { DraculaTheme } from 'dracula-mantine'
 function Demo() {
   return (
     // Pass DraculaTheme to theme prop of MantineProvider
