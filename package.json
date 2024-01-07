@@ -1,16 +1,15 @@
 {
   "name": "dracula-mantine",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Dracula theme for mantine component library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\"",
     "build": "rm -rf dist && tsc && tsc -p tsconfig.types.json && cp package.json dist/package.json && cp LICENSE dist && cp README.md dist && cp screenshot.png dist",
     "build-win": "(if exist dist rd /s /q dist) && tsc && tsc -p tsconfig.types.json && copy package.json dist\\package.json && copy LICENSE dist && copy README.md dist && copy screenshot.png dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeretkk/mantine-dracula.git"
+    "url": "git+https://github.com/dracula/mantine.git"
   },
   "keywords": [
     "dracula",
@@ -24,7 +23,7 @@
   "author": "Kirill Stepkin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zeretkk/mantine-dracula/issues"
+    "url": "https://github.com/dracula/mantine/issues"
   },
   "homepage": "https://draculatheme.com/mantine",
   "peerDependencies": {
