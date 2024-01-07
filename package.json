@@ -4,6 +4,7 @@
   "description": "Dracula theme for mantine component library",
   "main": "index.js",
   "scripts": {
+    "test": "node index",
     "build": "rm -rf dist && tsc && tsc -p tsconfig.types.json && cp package.json dist/package.json && cp LICENSE dist && cp README.md dist && cp screenshot.png dist",
     "build-win": "(if exist dist rd /s /q dist) && tsc && tsc -p tsconfig.types.json && copy package.json dist\\package.json && copy LICENSE dist && copy README.md dist && copy screenshot.png dist"
   },
